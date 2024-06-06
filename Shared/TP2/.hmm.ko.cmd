@@ -1,0 +1,1 @@
+cmd_/home/ensea/src/TP2/hmm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.19.0-6-common/scripts/module-common.lds  --build-id  -o /home/ensea/src/TP2/hmm.ko /home/ensea/src/TP2/hmm.o /home/ensea/src/TP2/hmm.mod.o ;  true
